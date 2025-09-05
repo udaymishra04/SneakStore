@@ -1,0 +1,88 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100vw;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header nav {
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+   padding-block: 1rem;
+  background-color: #1a1a1a;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 900;
+  background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: gradientShift 3s ease-in-out infinite;
+  cursor: pointer;
+}
+@keyframes gradientShift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  font-size: 1.1rem;
+}
+.nav-links a {
+  color: white;
+}
+
+.nav-links a:hover {
+  color: #ff6b6b;
+  transition: color 0.5s ease;
+}
+
+.nav-button {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-button .login-button{
+  padding: 8px 18px;
+  border: 2px solid white;
+  border-radius: 20px;
+  color: white;
+  transition: all 0.5s ease;
+}
+
+.nav-button .signup-button{
+  padding: 8px 18px;
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+  transition: all 0.5s ease;
+  border: 2px solid white;
+}
+.nav-button .login-button:hover{
+  transform: translateY(-2px);
+  color: black;
+  background-color: white;
+}
+
+.nav-button .signup-button:hover{
+  /* transform: translateY(-2px); */
+  color: white;
+  background-color: black;
+}
