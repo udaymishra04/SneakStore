@@ -1,4 +1,4 @@
-import "./../styles/SneakerBrand.css";
+import "../styles/SneakerBrand.css";
 
 export default function SneakerBrands() {
   return (

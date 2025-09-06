@@ -1,6 +1,6 @@
 import React from "react";
 import 'aos/dist/aos.css';
-import "./../styles/LandingPage.css";
+import "../styles/LandingPage.css";
 import Sneaker from '../assets/Images/Air_Jordan.png';
 import ProductCard from "../components/ProductCard";
 import SneakerBrands from "../components/SneakerBrands";
