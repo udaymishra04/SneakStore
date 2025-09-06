@@ -1,0 +1,67 @@
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.bg-white {
+  background: #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-gray-600 {
+  color: #4b5563;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.gap-14 {
+  gap: 3.5rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
+.rem4 {
+  height: 4rem;
+}
+.rem5 {
+  height: 5rem;
+}
+.pd-4 {
+  padding: 4rem;
+}

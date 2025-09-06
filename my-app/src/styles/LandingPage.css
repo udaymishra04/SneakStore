@@ -122,6 +122,7 @@
         .stat-label {
             font-size: 0.9rem;
             opacity: 0.7;
+            color: white;
         }
 
         .hero-visual {
@@ -144,7 +145,7 @@
             position: absolute;
             width: 300px;
             height: 200px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, white 0%, #808080 100%);
             border-radius: 20px;
             display: flex;
             align-items: center;
@@ -156,7 +157,7 @@
         }
 
         .sneaker-card:nth-child(1) {
-            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+            /* background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%); */
             animation-delay: 0s;
         }
 
@@ -183,3 +184,25 @@
                 transform: perspective(1000px) rotateY(240deg) rotateX(-10deg);
             }
         }
+      .landing-page-products {
+  background: black;
+  color: white;
+}
+
+.landing-page-products .section-title{
+    padding-top: 5rem;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.landing-page-products .product-grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5rem;
+    padding: 0 2rem 4rem 2rem;
+}
+
