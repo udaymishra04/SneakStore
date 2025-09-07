@@ -29,6 +29,10 @@
   width: 16rem;
 }
 
+.justify-content-center {
+  justify-content: center;
+}
+
 .bg-gray-100 {
   background-color: #f3f4f6;
 }
@@ -97,7 +101,7 @@
 }
 
 .grid-cols-1 {
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(4,1fr);
 }
 
 .sm\:grid-cols-2 {

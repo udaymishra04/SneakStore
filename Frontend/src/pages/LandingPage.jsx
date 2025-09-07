@@ -6,6 +6,7 @@ import ProductCard from "../components/ProductCard";
 import SneakerBrands from "../components/SneakerBrands";
 
 function LandingPage() {
+  const imgUrl = "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/76e54683-5822-464c-a8cf-8b366b629675/AIR+MAX+DN.png";
   return (
     <>
       <div data-aos="fade-in" className="hero">
@@ -46,14 +47,14 @@ function LandingPage() {
         <h2 className="section-title">Featured Products</h2>
         <div className="product-grid-container">
           {/* Product Cards */}
-          <ProductCard image={Sneaker} name="Air Jordan 1" price="150" rating="4" />
-          <ProductCard image={Sneaker} name="Air Jordan 1" price="150" rating="4" />
-          <ProductCard image={Sneaker} name="Air Jordan 1" price="150" rating="4" />
-          <ProductCard image={Sneaker} name="Air Jordan 1" price="150" rating="4" />
-          <ProductCard image={Sneaker} name="Air Jordan 1" price="150" rating="4" />
-          <ProductCard image={Sneaker} name="Air Jordan 1" price="150" rating="4" />
-          <ProductCard image={Sneaker} name="Air Jordan 1" price="150" rating="4" />
-          <ProductCard image={Sneaker} name="Air Jordan 1" price="150" rating="4" />
+          <ProductCard image={imgUrl} name="Air Jordan 1" price="150" rating="4" />
+          <ProductCard image={imgUrl} name="Air Jordan 1" price="150" rating="4" />
+          <ProductCard image={imgUrl} name="Air Jordan 1" price="150" rating="4" />
+          <ProductCard image={imgUrl} name="Air Jordan 1" price="150" rating="4" />
+          <ProductCard image={imgUrl} name="Air Jordan 1" price="150" rating="4" />
+          <ProductCard image={imgUrl} name="Air Jordan 1" price="150" rating="4" />
+          <ProductCard image={imgUrl} name="Air Jordan 1" price="150" rating="4" />
+          <ProductCard image={imgUrl} name="Air Jordan 1" price="150" rating="4" />
         </div>
       </div>
     </>
