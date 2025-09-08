@@ -9,6 +9,7 @@ import ShopPage from './pages/ShopPage';
 import ContactPage from './pages/ContactPage';
 import AboutPage from './pages/AboutPage';
 import CategoryPage from './pages/CategoryPage';
+import { CartContextProvider } from './context/CartContextProvider';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     AOS.init({ once: true,}); // 'once' animates only once per element
   }, []);
   return (
+    <CartProvider>
     <Router>
       <Header />
       <main>
@@ -29,6 +31,7 @@ function App() {
       </main>
       <Footer />
     </Router>
+    </CartProvider>
   );
 }
 
